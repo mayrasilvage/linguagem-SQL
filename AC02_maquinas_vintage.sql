@@ -1,3 +1,16 @@
+/*
+AC02- MAQUINAS VINTAGE 
+
+Turma: BD 2C
+Grupo:
+	Gabriel Scalione	RA: 1903812
+	Isaque Ribeiro		RA: 1903978 
+	Lucimara Mendes		RA: 1903617
+	Mayra Fernanda		RA: 1903486
+	Yuri Placido		RA: 1904177
+
+*/
+
 /*************************************************
 -- 2 – Através do comando INSERT insira os valores 
 abaixo nas respectivas tabelas:
