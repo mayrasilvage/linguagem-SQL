@@ -79,12 +79,12 @@ CREATE TABLE ITEM_PEDIDO
 
 	--3 ALTER TABLE
 
---Crie uma nova coluna chamada ìCORî VARCHAR (50).
+--Crie uma nova coluna chamada ‚ÄúCOR‚Äù VARCHAR (50).
 ALTER TABLE MAQUINA
 ADD COR VARCHAR(50)
 
 
---Crie uma restriÁ„o na coluna CNPJ_CPF para que esse valor seja ⁄NICO.
+--Crie uma restri√ß√£o na coluna CNPJ_CPF para que esse valor seja √öNICO.
 ALTER TABLE CLIENTE
 ADD CONSTRAINT UNIQUE_CPF_CNPJ UNIQUE (CNPJ_CPF)
 
@@ -92,6 +92,6 @@ ADD CONSTRAINT UNIQUE_CPF_CNPJ UNIQUE (CNPJ_CPF)
 ALTER TABLE CLIENTE
 DROP COLUMN NOME_FANTASIA
 
---Crie uma nova coluna chamada ìTELEFONEî VARCHAR (100).
+--Crie uma nova coluna chamada ‚ÄúTELEFONE‚Äù VARCHAR (100).
 ALTER TABLE CLIENTE
 ADD TELEFONE VARCHAR(100)
