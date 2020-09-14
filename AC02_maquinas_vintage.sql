@@ -13,6 +13,7 @@ Grupo:
 */
 
 /*************************************************
+
 -- 2 – Através do comando INSERT insira os valores 
 abaixo nas respectivas tabelas:
 **************************************************/
@@ -84,3 +85,27 @@ VALUES(1, 1, 2, 600)
 	, (2, 6, 1, 300)
 	, (1, 7, 2, 600)
 	, (2, 7, 2, 600)
+	
+/*************************************************
+5 – A área comercial deseja entrar em contato com os clientes que nasceram antes de 1980
+para atualizar os dados cadastrais. Crie uma tabela chamada
+“CLIENTES_CADASTRO_ATUALIZADO” c ontento os campos (CNPJ_CPF, NOME,
+DATA_NASCIMENTO) e insira os dados dos clientes que nasceram antes de 1980 nessa tabela.
+
+CREATE TABLE CLIENTES_CADASTRO_ATUALIZADO (
+
+CNPJ INT PRIMARY KEY,
+
+CPF DECIMAL (18,2),
+
+NOME VARCHAR (900),
+
+DATA_NASCIMENTO DATE
+
+)
+
+INSERT INTO CLIENTES_CADASTRO_ATUALIZADO ()
+
+SELECT CNPJ_CPF, NOME, DATA_NASCIMENTO FROM CLIENTE_CADASTRO_ATUALIZADO
+
+WHERE YEAR(DATA_NASCIMENTO) < 1980
